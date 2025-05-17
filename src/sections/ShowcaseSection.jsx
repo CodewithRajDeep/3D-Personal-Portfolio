@@ -7,9 +7,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
   const sectionRef = useRef(null);
-  const rydeRef = useRef(null);
-  const libraryRef = useRef(null);
-  const ycDirectoryRef = useRef(null);
+  const drugRef = useRef(null);
+  const financeRef = useRef(null);
+  const videoRef = useRef(null);
 
   useGSAP(() => {
     
@@ -19,7 +19,7 @@ const AppShowcase = () => {
       { opacity: 1, duration: 1.5 }
     );
 
-    const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
+    const cards = [drugRef.current, financeRef.current, videoRef.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -46,38 +46,42 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
+          <div ref={drugRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project-1.png" alt="Ryde App Interface" />
+              <img src="/images/project-1.png" alt="Medicare Platform" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                MediCare Drug Discovery Research Platform
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A medical compound analysis and drug discovery platform for researchers to discover and analyze compounds and its compositions.
               </p>
             </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={financeRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project-2.png"
-                  alt="Library Management Platform"
+                  alt="Finance Management Platform"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>FinanceFlow: Finance Management Platform</h2>
+              <p className="text-white-50 md:text-xl">
+               A platform for businesses to manage their finances, track expenses, and make payments from one place.
+              </p>
             </div>
 
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={videoRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project-3.png" alt="YC Directory App" />
+                <img src="/images/project-3.png" alt="AI Video App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>AI Based Video Streaming Platform</h2>
+              <p>
+                A platform that uses AI LLM models to provide personalized video streaming services to users.
+              </p>
             </div>
           </div>
         </div>
