@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import Button from '../components/Button';
+
 gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
@@ -10,6 +10,7 @@ const AppShowcase = () => {
   const drugRef = useRef(null);
   const financeRef = useRef(null);
   const videoRef = useRef(null);
+  const chatRef = useRef(null);
 
   useGSAP(() => {
     
@@ -19,7 +20,7 @@ const AppShowcase = () => {
       { opacity: 1, duration: 1.5 }
     );
 
-    const cards = [drugRef.current, financeRef.current, videoRef.current];
+    const cards = [drugRef.current, financeRef.current, videoRef.current, chatRef.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -58,7 +59,24 @@ const AppShowcase = () => {
                 A medical compound analysis and drug discovery platform for researchers to discover and analyze compounds and its compositions.
               </p>
             </div>
+            <div className="flex flex-col gap-7 mt-8">
+            </div>
           </div>
+
+          <div ref={chatRef} className="second-project-wrapper">
+            <div className="image-wrapper">
+              <img src="/images/project-4.jpg" alt="Chat Platform" />
+            </div>
+            <div className="text-content">
+              <h2>
+                 Connect- Advanced Chat Application
+              </h2>
+              <p className="text-white-50 md:text-xl">
+               Chat application that uses embed dable chat widget to connect with customers and provide them with a seamless experience.
+              </p>
+            </div>
+          </div>
+
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={financeRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
@@ -80,20 +98,6 @@ const AppShowcase = () => {
               <p>
                 A platform that uses AI LLM models to provide personalized video conferencing features that enables users to get high satisfaction results.
               </p>
-            </div>
-            <div>
-          </div>
-          <div className="project" ref={videoRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project-4.jpg" alt="AI Video App" />
-              </div>
-              <h2>Connect- Advanced Chat Application</h2>
-              <p>
-                Chat application that uses embed dable chat widget to connect with customers and provide them with a seamless experience.
-              </p>
-            </div>
-            <div className='flex flex-col gap-7'>
-            <Button className="md:w-80 md:h-16 w-60 h-12" id="tap" text="View More"/>
             </div>
           </div>
         </div>

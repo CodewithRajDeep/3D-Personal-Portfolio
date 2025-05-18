@@ -160,7 +160,7 @@ section {
     .showcaselayout {
       @apply flex xl:flex-row flex-col gap-10 justify-between;
     }
-    .first-project-wrapper {
+    .first-project-wrapper, .second-project-wrapper {
       @apply h-full flex flex-col justify-between xl:w-[60%];
 
       .image-wrapper {
@@ -200,7 +200,6 @@ section {
       }
     }
   }
-
   .cta-wrapper {
     @apply relative z-20 cursor-pointer;
   }
