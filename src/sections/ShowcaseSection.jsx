@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-
+import Button from '../components/Button';
 gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
@@ -59,7 +59,6 @@ const AppShowcase = () => {
               </p>
             </div>
           </div>
-
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={financeRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
@@ -73,15 +72,28 @@ const AppShowcase = () => {
                A platform for businesses to manage their finances, track expenses, and make payments from one place.
               </p>
             </div>
-
             <div className="project" ref={videoRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project-3.png" alt="AI Video App" />
               </div>
               <h2>AI Based Video Streaming Platform</h2>
               <p>
-                A platform that uses AI LLM models to provide personalized video streaming services to users.
+                A platform that uses AI LLM models to provide personalized video conferencing features that enables users to get high satisfaction results.
               </p>
+            </div>
+            <div>
+          </div>
+          <div className="project" ref={videoRef}>
+              <div className="image-wrapper bg-[#FFE7EB]">
+                <img src="/images/project-4.jpg" alt="AI Video App" />
+              </div>
+              <h2>Connect- Advanced Chat Application</h2>
+              <p>
+                Chat application that uses embed dable chat widget to connect with customers and provide them with a seamless experience.
+              </p>
+            </div>
+            <div className='flex flex-col gap-7'>
+            <Button className="md:w-80 md:h-16 w-60 h-12" id="tap" text="View More"/>
             </div>
           </div>
         </div>
