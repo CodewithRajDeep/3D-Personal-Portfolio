@@ -1,4 +1,5 @@
 
+import LogoSection from "./components/LogoSection";
 import NavBar from "./components/Navbar";
 
 import Hero from "./sections/Hero";
@@ -9,6 +10,7 @@ const App = () => (
    <NavBar/>
     <Hero/>
     <ShowcaseSection />
+    <LogoSection/>
   </>
 );
 
