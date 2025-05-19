@@ -82,8 +82,8 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Robust Backend Development",
+    desc: "Designing scalable APIs and backend systems with clean architecture and production-ready standards.",
   },
   {
     imgPath: "/images/chat.png",
@@ -94,6 +94,21 @@ const abilities = [
     imgPath: "/images/time.png",
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+  },
+  {
+    imgPath: '/images/consistent.png',
+    title: "Growth-Driven & Consistent",
+    desc: "Pushing boundaries with consistent DSA practice, project shipping, and long-term tech mastery goals.",
+  },
+  {
+    imgPath: "/images/collab.png",
+    title: "Open Source & Collaboration",
+    desc: "Active contributor and learner in the open-source space, always ready to collaborate and share value.",
+  },
+  {
+  imgPath: "/images/roboty.png",
+  title: "Modern Automation Focus",
+  desc: "Building with deployment and scalability in mind — familiar with CI/CD pipelines, cloud platforms, and agile delivery.",
   },
 ];
 
