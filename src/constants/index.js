@@ -185,7 +185,7 @@ const expCards = [
     review: "Displayed creative innovation in competitive environments with strong presentation and problem-solving skills, earning accolades in national-level hackathons.",
     imgPath: "/images/exp5.png",
     logoPath: "/images/logo6.png",
-    title: "Hackathon Participant",
+    title: "Hackathon Participant-Akatsuki",
     date: "April 2022",
     responsibilities: [
       "Presented biometric-based attendance system at CSA 1.0 Hackathon.",
@@ -198,12 +198,25 @@ const expCards = [
     review: "Laid the foundation of my development journey through Open Community, evolving into a leadership role and helping others grow in tech.",
     imgPath: "/images/exp6.png",
     logoPath: "/images/logo7.png",
-    title: "Community Contributor & Lead - Open Community",
+    title: "Community Contributor & Lead Manager",
     date: "Sept 2022 - May 2024",
     responsibilities: [
       "Learned web development fundamentals and practical deployment.",
       "Led community events on APIs, RPA, and hands-on coding sessions.",
       "Mentored juniors and organized multiple tech contests and workshops.",
+    ],
+  },
+  
+  {
+    review: "I brought creativity and technical expertise to the team, significantly improving team performance. My work has shown proven invaluable results in delivering faster experiences.",
+    imgPath: "/images/exp16.png",
+    logoPath: "/images/logo14.png",
+    title: "Open Source Developer",
+    date: "January 2023 - Present",
+    responsibilities: [
+      "Developed and maintained user-facing features for the educational website.",
+      "Collaborated closely with UI/UX designers and testers to ensure seamless user experiences.",
+      "Optimized web applications for maximum speed and scalability.",
     ],
   },
   
@@ -237,7 +250,7 @@ const expCards = [
     review: "Strengthened understanding of customer engagement and business operations through immersive simulation in sales and communication.",
     imgPath: "/images/exp9.png",
     logoPath: "/images/logo9.png",
-    title: "Sales Job Program - Red Bull",
+    title: "Sales Job Program Member - Red Bull",
     date: "May 2024",
     responsibilities: [
       "Completed Red Bull's On-Premise Sales simulation.",
@@ -246,14 +259,15 @@ const expCards = [
     ],
   },
   
+
   {
     review: "I brought creativity and technical expertise to the team, significantly improving team performance. My work has shown proven invaluable results in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Software  Developer",
-    date: "January 2023 - Present",
+    title: "Software Developer Intern",
+    date: "Jun 2024 - July 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the educational website.",
+      "Developed and maintained user-facing features for the educational website-programbase.",
       "Collaborated closely with UI/UX designers and testers to ensure seamless user experiences.",
       "Optimized web applications for maximum speed and scalability.",
     ],
@@ -277,11 +291,26 @@ const expCards = [
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "July 2024 - Aug 2024",
     responsibilities: [
       "Led the development of Docker's web applications, focusing on scalability.",
       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
       "Contributed to open-source projects that were used with the Docker ecosystem.",
+    ],
+  },
+
+ 
+  
+  {
+    review: "Delivered a feature-rich financial management system, showcasing industry-aligned deployment practices and API integration.",
+    imgPath: "/images/exp12.png",
+    logoPath: "/images/logo8.png",
+    title: "Full Stack Lead Developer - Academic Major I",
+    date: "Aug 2024 - Nov 2024",
+    responsibilities: [
+      "Developed real-time financial transaction monitoring system.",
+      "Integrated Appwrite and Plaid APIs for secure data handling.",
+      "Deployed app on Vercel with optimized scalability.",
     ],
   },
 
@@ -295,19 +324,6 @@ const expCards = [
       "Contributed to freeCodeCamp repositories and documentation.",
       "Streamlined onboarding processes and UI documentation.",
       "Improved accessibility and structure of learning content.",
-    ],
-  },
-  
-  {
-    review: "Delivered a feature-rich financial management system, showcasing industry-aligned deployment practices and API integration.",
-    imgPath: "/images/exp12.png",
-    logoPath: "/images/logo8.png",
-    title: "Full Stack Developer - Academic Major I",
-    date: "Aug 2024 - Nov 2024",
-    responsibilities: [
-      "Developed real-time financial transaction monitoring system.",
-      "Integrated Appwrite and Plaid APIs for secure data handling.",
-      "Deployed app on Vercel with optimized scalability.",
     ],
   },
   
@@ -328,7 +344,7 @@ const expCards = [
     review: "Led the build of a research-oriented platform in the pharmaceutical domain, bringing modern full-stack capabilities into healthcare innovation.",
     imgPath: "/images/exp14.png",
     logoPath: "/images/logo8.png",
-    title: "Senior Developer - Academic Major II",
+    title: "Full Stack Lead Developer - Academic Major II",
     date: "Jan 2025 - Apr 2025",
     responsibilities: [
       "Developed the Medicare platform for drug research collaboration.",
