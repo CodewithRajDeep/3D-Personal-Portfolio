@@ -170,6 +170,83 @@ const techStackIcons = [
 
 const expCards = [
   {
+    review: "Led impactful community initiatives and contributed to social welfare, shaping a strong foundation.",
+    imgPath: "/images/exp4.png",
+    logoPath: "/images/logo5.png",
+    title: "Social Intern - Abhivyakti Foundation",
+    date: "June 2022 - July 2022",
+    responsibilities: [
+      "Engaged with rural communities to understand grassroots challenges.",
+      "Worked on documentation and field research to highlight socio-economic issues.",
+      "Promoted digital literacy and tech-awareness in underrepresented areas.",
+    ],
+  },
+  {
+    review: "Displayed creative innovation in competitive environments with strong presentation and problem-solving skills, earning accolades in national-level hackathons.",
+    imgPath: "/images/exp5.png",
+    logoPath: "/images/logo6.png",
+    title: "Hackathon Participant",
+    date: "April 2022",
+    responsibilities: [
+      "Presented biometric-based attendance system at CSA 1.0 Hackathon.",
+      "Secured 2nd place in UPES ACM Prodigy event for innovative thinking.",
+      "Collaborated in teams to ideate and pitch real-time tech solutions.",
+    ],
+  },
+  
+  {
+    review: "Laid the foundation of my development journey through Open Community, evolving into a leadership role and helping others grow in tech.",
+    imgPath: "/images/exp6.png",
+    logoPath: "/images/logo7.png",
+    title: "Community Contributor & Lead - Open Community",
+    date: "Sept 2022 - May 2024",
+    responsibilities: [
+      "Learned web development fundamentals and practical deployment.",
+      "Led community events on APIs, RPA, and hands-on coding sessions.",
+      "Mentored juniors and organized multiple tech contests and workshops.",
+    ],
+  },
+  
+  {
+    review: "Showcased innovative problem-solving by combining NLP, deep learning, and computer vision in academic projects, reinforcing full-stack capabilities.",
+    imgPath: "/images/exp7.png",
+    logoPath: "/images/logo8.png",
+    title: "Full Stack Developer - Academic Minor I",
+    date: "Aug 2023 - Nov 2023",
+    responsibilities: [
+      "Built an adaptive word-generation system using OCR, KNN, and deep learning.",
+      "Implemented Java-based terminal application with pattern recognition.",
+      "Demonstrated interdisciplinary skill set across AI and software design.",
+    ],
+  },
+
+  {
+    review: "Enhanced user experience and performance through deep JavaScript ecosystem knowledge and search optimization in production-ready academic projects.",
+    imgPath: "/images/exp8.png",
+    logoPath: "/images/logo8.png",
+    title: "Full Stack Developer - Academic Minor II",
+    date: "Jan 2024 - May 2024",
+    responsibilities: [
+      "Created a MERN-stack search engine with deduplication handling.",
+      "Improved front-end search responsiveness and performance.",
+      "Engaged in code reviews and collaborative programming.",
+    ],
+  },
+
+  {
+    review: "Strengthened understanding of customer engagement and business operations through immersive simulation in sales and communication.",
+    imgPath: "/images/exp9.png",
+    logoPath: "/images/logo9.png",
+    title: "Sales Job Program - Red Bull",
+    date: "May 2024",
+    responsibilities: [
+      "Completed Red Bull's On-Premise Sales simulation.",
+      "Practiced persuasive communication and data-backed recommendations.",
+      "Analyzed client performance to drive strategic improvement.",
+    ],
+  },
+  
+  {
     review: "I brought creativity and technical expertise to the team, significantly improving team performance. My work has shown proven invaluable results in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
@@ -181,6 +258,20 @@ const expCards = [
       "Optimized web applications for maximum speed and scalability.",
     ],
   },
+
+  {
+    review: "Applied practical hardware and software integration for innovative temperature-warning systems and secured authentication flows.",
+    imgPath: "/images/exp3.png",
+    logoPath: "/images/logo3.png",
+    title: "Software Engineer Intern - Blackbird",
+    date: "June 2024 - July 2024",
+    responsibilities: [
+      "Created temperature alert systems using Arduino.",
+      "Developed secure front-end login and email interfaces.",
+      "Built open-source solutions with Morse Micro integration.",
+    ],
+  },
+  
   {
     review: "I worked as Software Intern have been outstanding and  challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
@@ -193,18 +284,72 @@ const expCards = [
       "Contributed to open-source projects that were used with the Docker ecosystem.",
     ],
   },
+
   {
-    review: "I work on responsive app development and  brought a high level of quality and efficiency & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review: "Actively contributed to a global open-source project improving educational tools, collaborating effectively with remote teams.",
+    imgPath: "/images/exp11.png",
+    logoPath: "/images/logo11.png",
+    title: "Open Source Contributor - Hacktoberfest 2024",
+    date: "October 2024",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Contributed to freeCodeCamp repositories and documentation.",
+      "Streamlined onboarding processes and UI documentation.",
+      "Improved accessibility and structure of learning content.",
     ],
   },
+  
+  {
+    review: "Delivered a feature-rich financial management system, showcasing industry-aligned deployment practices and API integration.",
+    imgPath: "/images/exp12.png",
+    logoPath: "/images/logo8.png",
+    title: "Full Stack Developer - Academic Major I",
+    date: "Aug 2024 - Nov 2024",
+    responsibilities: [
+      "Developed real-time financial transaction monitoring system.",
+      "Integrated Appwrite and Plaid APIs for secure data handling.",
+      "Deployed app on Vercel with optimized scalability.",
+    ],
+  },
+  
+  {
+    review: "Built custom bots and interactive layouts tailored for Discord communities, combining UI thinking and functional logic.",
+    imgPath: "/images/exp13.png",
+    logoPath: "/images/logo13.png",
+    title: "Discord Freelance Developer",
+    date: "Dec 2024 - Mar 2025",
+    responsibilities: [
+      "Designed and deployed custom bots for user interaction.",
+      "Built engaging server pages and command interfaces.",
+      "Offered freelance solutions with user-first focus.",
+    ],
+  },
+
+  {
+    review: "Led the build of a research-oriented platform in the pharmaceutical domain, bringing modern full-stack capabilities into healthcare innovation.",
+    imgPath: "/images/exp14.png",
+    logoPath: "/images/logo8.png",
+    title: "Senior Developer - Academic Major II",
+    date: "Jan 2025 - Apr 2025",
+    responsibilities: [
+      "Developed the Medicare platform for drug research collaboration.",
+      "Integrated molecule visualizations, record systems, and real-time chat.",
+      "Led backend development and team collaboration efforts.",
+    ],
+  },
+  
+  {
+    review: "Explored the cutting edge of AI with simulations focused on GenAI applications, model building, and prompt engineering.",
+    imgPath: "/images/exp15.png",
+    logoPath: "/images/logo13.png",
+    title: "Virtual Intern - Generative AI Simulation",
+    date: "April 2025",
+    responsibilities: [
+      "Completed end-to-end GenAI product simulation.",
+      "Built and fine-tuned prompts and workflows.",
+      "Explored integration of LLMs with user-facing tools.",
+    ],
+  },
+
 ];
 
 const expLogos = [
