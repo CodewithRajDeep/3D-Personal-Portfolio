@@ -143,16 +143,42 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
+    name: "Java Developer",
+    modelPath: "/models/java.glb",
+    scale: 1,
+    rotation: [0, 0, 0],
+  },
+  {
     name: "Python Developer",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Javascript Developer",
+    name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
+  },
+  {
+    name: "JavaScript Developer",
+    modelPath: "/models/javascript_1.glb",
+    scale: 0.4,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Interactive Developer -Html",
+    modelPath: "/models/html-3d.glb",
+    scale: 1,
+    position: [0, -4, 0],
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Interactive Developer-CSS",
+    modelPath: "/models/css.glb",
+    scale: 1,
+    position: [2, 3, 4],
+    rotation: [0, -7.8, 0],
   },
   {
     name: "Interactive Developer",
@@ -165,6 +191,13 @@ const techStackIcons = [
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
+  },
+  {
+    name: "Open Source Developer",
+    modelPath: "/models/github.glb",
+    scale: 0.5,
+    position: [0, -1, 0],
+    rotation: [0, Math.PI / 2, 0],
   },
 ];
 
