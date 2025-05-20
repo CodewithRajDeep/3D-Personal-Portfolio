@@ -10,6 +10,7 @@ import TechStack from "./sections/TechStack";
 import Certificate from "./sections/Certificate";
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 const App = () => (
   <>
@@ -23,6 +24,7 @@ const App = () => (
     <Certificate/>
     <Testimonials/>
     <Contact/>
+    <Footer/>
   </>
 );
 

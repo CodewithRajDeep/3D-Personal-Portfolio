@@ -512,18 +512,22 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
+    url: 'https://www.instagram.com/xoxo.shain/',
     imgPath: "/images/insta.png",
   },
   {
     name: "fb",
+    url: 'https://www.facebook.com/deep.raj.760565/',
     imgPath: "/images/fb.png",
   },
   {
     name: "x",
+    url: 'https://x.com/anatanoaiwa',
     imgPath: "/images/x.png",
   },
   {
     name: "linkedin",
+    url: 'https://www.linkedin.com/in/deep-raj-online/',
     imgPath: "/images/linkedin.png",
   },
 ];
