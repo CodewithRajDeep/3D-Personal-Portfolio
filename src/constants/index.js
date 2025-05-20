@@ -167,18 +167,16 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Interactive Developer -Html",
-    modelPath: "/models/html-3d.glb",
-    scale: 1,
-    position: [0, -4, 0],
-    rotation: [0, 0, 0],
+    name: "Web Developer",
+    modelPath: "/models/Web browser.glb",
+    scale: 0.9,
+    rotation: [0, 5, 6],
   },
   {
-    name: "Interactive Developer-CSS",
-    modelPath: "/models/css.glb",
-    scale: 1,
-    position: [2, 3, 4],
-    rotation: [0, -7.8, 0],
+    name: "C++ Developer",
+    modelPath: "/models/c.glb",
+    scale: 0.1,
+    rotation: [0, 0, 0],
   },
   {
     name: "Interactive Developer",
@@ -194,10 +192,9 @@ const techStackIcons = [
   },
   {
     name: "Open Source Developer",
-    modelPath: "/models/github.glb",
-    scale: 0.5,
-    position: [0, -1, 0],
-    rotation: [0, Math.PI / 2, 0],
+    modelPath: "/models/power.glb",
+    scale: 1,
+    rotation: [0, 0, 0],
   },
 ];
 
@@ -323,7 +320,7 @@ const expCards = [
     review: "I worked as Software Intern have been outstanding and  challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo4.png",
-    title: "Full Stack Developer",
+    title: "Project Developer- Intern",
     date: "July 2024 - Aug 2024",
     responsibilities: [
       "Led the development of Docker's web applications, focusing on scalability.",
