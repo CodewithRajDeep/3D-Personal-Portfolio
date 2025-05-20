@@ -112,6 +112,57 @@ const abilities = [
   },
 ];
 
+const certificate = [
+  {
+    imgPath: "/images/javahackerrank.png",
+    title: "HackerRank Java Basic",
+    desc: "Completed Java basics certification demonstrating core Java programming knowledge.",
+    link: "https://drive.google.com/your-java-cert-link"
+  },
+  {
+    imgPath: "/images/osscertificate.png",
+    title: "Open Source Software Development Methods",
+    desc: "Learned foundational practices of open-source collaboration and code contribution via Coursera.",
+    link: "https://drive.google.com/your-coursera-link"
+  },
+  {
+    imgPath: "/images/githubcertificate.png",
+    title: "Practical GitHub Actions",
+    desc: "Mastered GitHub Actions workflows and automation with LinkedIn Learning.",
+    link: "https://drive.google.com/your-github-actions-link"
+  },
+  {
+    imgPath: "/images/githubcertificate.png",
+    title: "Learning Java Service",
+    desc: "Learned core principles behind scalable Java service development via LinkedIn Learning.",
+    link: "https://drive.google.com/your-java-service-link"
+  },
+  {
+    imgPath: "/images/scalercertificate.png",
+    title: "E-commerce Platform (Scaler)",
+    desc: "Completed project-based learning on building and scaling e-commerce platforms.",
+    link: "https://drive.google.com/your-scaler-cert-link"
+  },
+  {
+    imgPath: "/images/openlearningcertificate.png",
+    title: "Open Learning (Open Community)",
+    desc: "Participated in community-driven open learning initiatives around web and software development.",
+    link: "https://drive.google.com/your-open-learning-link"
+  },
+  {
+    imgPath: "/images/conferencecertificate.png",
+    title: "International Conference Research Presentation",
+    desc: "Presented research at the Royal University of Bhutan, demonstrating strong academic and technical communication.",
+    link: "https://drive.google.com/your-conference-cert-link"
+  },
+  {
+    imgPath: "/images/tatacertificate.png",
+    title: "Tata Immigration Challenge Certificate",
+    desc: "Participated and earned recognition in a national challenge hosted by Tata on tech-enabled solutions.",
+    link: "https://drive.google.com/your-tata-cert-link"
+  },
+];
+
 const techStackImgs = [
   {
     name: "React Developer",
@@ -488,4 +539,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  certificate
 };
