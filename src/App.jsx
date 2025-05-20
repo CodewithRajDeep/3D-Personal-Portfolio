@@ -8,6 +8,7 @@ import ShowcaseSection from "./sections/ShowcaseSection";
 import ExperienceSection from "./sections/ExperienceSection";
 import TechStack from "./sections/TechStack";
 import Certificate from "./sections/Certificate";
+import Testimonials from "./sections/Testimonials";
 
 const App = () => (
   <>
@@ -19,6 +20,7 @@ const App = () => (
     <ExperienceSection/>
     <TechStack/>
     <Certificate/>
+    <Testimonials/>
   </>
 );
 
