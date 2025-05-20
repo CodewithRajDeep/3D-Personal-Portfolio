@@ -289,7 +289,7 @@ const expCards = [
   {
     review: "I worked as Software Intern have been outstanding and  challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    logoPath: "/images/logo4.png",
     title: "Full Stack Developer",
     date: "July 2024 - Aug 2024",
     responsibilities: [
@@ -330,7 +330,7 @@ const expCards = [
   {
     review: "Built custom bots and interactive layouts tailored for Discord communities, combining UI thinking and functional logic.",
     imgPath: "/images/exp13.png",
-    logoPath: "/images/logo13.png",
+    logoPath: "/images/logo12.png",
     title: "Discord Freelance Developer",
     date: "Dec 2024 - Mar 2025",
     responsibilities: [
