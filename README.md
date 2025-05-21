@@ -1,4 +1,4 @@
-## Title: Personal-CV 3D portfolio 
+## Title: Personal- Portfolio 
 
 ## Project Description: 
 Create a fully responsive 3D portfolio  application to showcase all my skills and assets gained throughout my journey. This app helps in providing seamlessly communication as well as refined UI/YX interaction  as well as  to show increase the work ratio within Agile methoaology over 35-40%. 
